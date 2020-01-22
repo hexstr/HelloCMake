@@ -1,0 +1,70 @@
+﻿{
+  "configurations": [
+    {
+      "name": "arm64-v8a",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "llvm" ],
+      "buildRoot": "${projectDir}\\build",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "ANDROID_ABI",
+          "value": "arm64-v8a",
+          "type": "STRING"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-23",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_ANDROID_STL_TYPE",
+          "value": "c++_static",
+          "type": "STRING"
+        },
+        {
+          "name": "LIBRARY_OUTPUT_PATH",
+          "value": "${projectDir}\\libs\\arm64-v8a",
+          "type": "STRING"
+        }
+      ],
+      "cmakeToolchain": "D:/Android_SDK/ndk-bundle/build/cmake/android.toolchain.cmake"
+    },
+    {
+      "name": "armeabi-v7a",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "llvm" ],
+      "buildRoot": "${projectDir}\\build",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "ANDROID_ABI",
+          "value": "armeabi-v7a",
+          "type": "STRING"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-23",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_ANDROID_STL_TYPE",
+          "value": "c++_static",
+          "type": "STRING"
+        },
+        {
+          "name": "LIBRARY_OUTPUT_PATH",
+          "value": "${projectDir}\\libs\\armeabi-v7a",
+          "type": "STRING"
+        }
+      ],
+      "cmakeToolchain": "D:/Android_SDK/ndk-bundle/build/cmake/android.toolchain.cmake"
+    }
+  ]
+}
