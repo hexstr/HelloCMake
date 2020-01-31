@@ -2,7 +2,7 @@
 # 项目特定的逻辑。
 #
 cmake_minimum_required (VERSION 3.8)
-# 定义项目类型
+set(CMAKE_CXX_FLAGS_RELEASE "-Wall -fno-rtti -O2 -s")
 # 将源代码添加到此项目的可执行文件。
 add_library (HelloCMake SHARED "HelloCMake.cpp" "HelloCMake.h")
 find_library(log-lib log)
