@@ -17,21 +17,25 @@
         },
         {
           "name": "ANDROID_PLATFORM",
-          "value": "android-23",
+          "value": "android-21",
           "type": "STRING"
         },
         {
-          "name": "CMAKE_ANDROID_STL_TYPE",
-          "value": "c++_static",
+          "name": "CMAKE_CXX_FLAGS",
+          "value": "-std=c++1z",
           "type": "STRING"
         },
         {
           "name": "LIBRARY_OUTPUT_PATH",
           "value": "${projectDir}\\libs\\arm64-v8a\\Debug",
           "type": "STRING"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "${env.ANDROID_NDK}\\build\\cmake\\android.toolchain.cmake",
+          "type": "FILEPATH"
         }
-      ],
-      "cmakeToolchain": "D:/Android_SDK/ndk-bundle/build/cmake/android.toolchain.cmake"
+      ]
     },
     {
       "name": "armeabi-v7a_Debug",
@@ -50,21 +54,25 @@
         },
         {
           "name": "ANDROID_PLATFORM",
-          "value": "android-23",
+          "value": "android-21",
           "type": "STRING"
         },
         {
-          "name": "CMAKE_ANDROID_STL_TYPE",
-          "value": "c++_static",
+          "name": "CMAKE_CXX_FLAGS",
+          "value": "-std=c++1z",
           "type": "STRING"
         },
         {
           "name": "LIBRARY_OUTPUT_PATH",
           "value": "${projectDir}\\libs\\armeabi-v7a\\Debug",
           "type": "STRING"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "${env.ANDROID_NDK}\\build\\cmake\\android.toolchain.cmake",
+          "type": "FILEPATH"
         }
-      ],
-      "cmakeToolchain": "D:/Android_SDK/ndk-bundle/build/cmake/android.toolchain.cmake"
+      ]
     },
     {
       "name": "arm64-v8a_Release",
@@ -90,9 +98,13 @@
           "name": "LIBRARY_OUTPUT_PATH",
           "value": "${projectDir}\\libs\\arm64-v8a\\Release",
           "type": "STRING"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "${env.ANDROID_NDK}\\build\\cmake\\android.toolchain.cmake",
+          "type": "FILEPATH"
         }
-      ],
-      "cmakeToolchain": "D:/Android_SDK/ndk-bundle/build/cmake/android.toolchain.cmake"
+      ]
     },
     {
       "name": "armeabi-v7a_Release",
@@ -115,17 +127,21 @@
           "type": "STRING"
         },
         {
-          "name": "CMAKE_ANDROID_STL_TYPE",
-          "value": "c++_static",
+          "name": "CMAKE_CXX_FLAGS",
+          "value": "-std=c++1z",
           "type": "STRING"
         },
         {
           "name": "LIBRARY_OUTPUT_PATH",
           "value": "${projectDir}\\libs\\armeabi-v7a\\Release",
           "type": "STRING"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "${env.ANDROID_NDK}\\build\\cmake\\android.toolchain.cmake",
+          "type": "FILEPATH"
         }
-      ],
-      "cmakeToolchain": "D:/Android_SDK/ndk-bundle/build/cmake/android.toolchain.cmake"
+      ]
     }
   ]
 }

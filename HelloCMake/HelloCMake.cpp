@@ -1,4 +1,4 @@
-﻿// ModFGO.cpp: 定义应用程序的入口点。
+﻿// HelloCMake.cpp: 定义应用程序的入口点。
 //
 #include "HelloCMake.h"
 
