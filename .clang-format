@@ -5,13 +5,16 @@ IndentWidth: 4
 ---
 Language: Cpp
 # Force pointers to the type for C++.
-ColumnLimit: 0
 AccessModifierOffset: -4
-NamespaceIndentation: All
+AlignConsecutiveMacros: true
+AllowShortLambdasOnASingleLine: Empty
+BraceWrapping:
+  BeforeElse: true
+BreakBeforeBraces: Custom
+ColumnLimit: 0
 Cpp11BracedListStyle: false
+IndentCaseLabels: true
+NamespaceIndentation: All
 PointerAlignment: Left
 SortIncludes: false
 SpacesBeforeTrailingComments: 1
-BreakBeforeBraces: Custom
-BraceWrapping:
-  BeforeElse: true
