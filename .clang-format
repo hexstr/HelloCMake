@@ -16,5 +16,5 @@ Cpp11BracedListStyle: false
 IndentCaseLabels: true
 NamespaceIndentation: All
 PointerAlignment: Left
-SortIncludes: false
+SortIncludes: true
 SpacesBeforeTrailingComments: 1
